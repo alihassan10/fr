@@ -1,0 +1,176 @@
+/* ----------------------
+[Table of contents]
+ 
+01.Default CSS
+02.Preloader CSS
+03.Navbar CSS
+04.Main Banner CSS
+05.Features CSS
+06.Video CSS
+07.Our Team CSS
+08.How It Works CSS
+09.Facts CSS
+10.Pricing CSS
+11.Testimonial CSS
+12.Quote CSS
+13.Blogs CSS
+14.FAQ's CSS
+15.Newsletter CSS
+16.Footer CSS
+17.Blog Detail Page CSS
+18.Contact Page CSS
+ --------------------------*/
+
+
+
+/*======================================
+ ============  Default CSS  ============
+ ======================================= */ 
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+:root{
+    --blue: #4f6df5;  
+    --white: #ffffff;
+    --black: #000000;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding: 100px 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title h1{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.section-subtitle{
+    margin-bottom: 30px;
+}
+.section-subtitle h2{
+  font-weight: bold;
+  color: var(--blue);
+}
+a{
+    color: var(--blue);
+    /* font-weight: bolder; */
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+}
+a:hover{
+    color: var(--blue);
+    text-decoration: none;
+}
+.btn{
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 12px 20px;
+    border: 1px solid var(--blue);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.btn:hover{
+    color: var(--blue);
+    background-color: transparent;
+    /* padding: 12px 30px; */
+}
+.float-left{
+  float: left !important;
+}
+.float-right{
+  float: right !important;
+}
+.color-white{
+  color: var(--white)!important;
+}
+.color-blue{
+  color: var(--blue)!important;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+.pb-50{
+  padding-bottom: 50px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.bold{
+  font-weight: bold;
+}
+.form-control{
+    height: 50px;
+    border-radius: 0%;
+}
+.form-control:focus{
+  border-color: var(--blue);
+  box-shadow: 0 0 5px 0 var(--blue);
+}
+/* .sticky{
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+  top: 0;
+} */
+.main-top-textarea{
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  transform: translate(-50%,-50%);
+}
+.main-top-textarea p{
+  font-size: 16px;
+  color: var(--white);
+}
+.main-top-textarea h2{
+  color: var(--white);
+}
+.main-top-video-icon{
+  position: absolute;
+  top: 40%;
+  left: 78%;
+  transform: translate(-50%,-50%);
+}
+.main-top-video-icon a{
+  font-size: 80px;
+}
+.main-icon-box span{
+  font-size: 40px;
+}
+#main-icon{
+  position: relative;
+  overflow: hidden;
+}
+/* .main-icon-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} */
+
